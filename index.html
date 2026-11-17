@@ -292,6 +292,8 @@ a{color:#1E40D8}a:hover{color:#1530A8}
 </div>
 <form action="https://formsubmit.co/danbarbata@gmail.com" method="POST" style="flex: 1 1 420px; min-width: 0; background: #FFFFFF; color: #0F172A; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px; box-sizing: border-box">
 <input type="hidden" name="_subject" value="New website enquiry">
+<input type="hidden" name="_next" id="f-next" value="">
+<script>document.getElementById("f-next").value = new URL("thank-you.html", window.location.href).href;</script>
 <div style="display: flex; flex-direction: column; gap: 6px"><label for="f-name" style="font-size: 14px; font-weight: 600">Your name</label><input id="f-name" name="name" required type="text" autocomplete="name" style="font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid #94A3B8; border-radius: 8px; min-height: 44px; box-sizing: border-box"></div>
 <div style="display: flex; flex-direction: column; gap: 6px"><label for="f-biz" style="font-size: 14px; font-weight: 600">Business name</label><input id="f-biz" name="business" type="text" autocomplete="organization" style="font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid #94A3B8; border-radius: 8px; min-height: 44px; box-sizing: border-box"></div>
 <div style="display: flex; flex-wrap: wrap; gap: 18px">
